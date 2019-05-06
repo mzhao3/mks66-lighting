@@ -1,0 +1,47 @@
+line
+0 80 0 500 200 0
+sphere
+70 420 0 50
+#donut box
+push
+move
+200 200 0
+rotate
+y -30
+rotate
+z 10
+rotate
+x 30
+sphere
+-80 -50 -20 20
+sphere
+160 -50 -20 20
+sphere
+160 -50 -100 20
+box
+-100 0 0 300 30 100
+push
+move 0 0 0
+torus
+-70 0 -25 10 15
+torus
+40 15 0 10 15
+torus
+200 30 10 10 15
+pop
+push
+rotate
+z -30
+torus
+50 100 40 10 15
+pop
+push
+rotate
+x -30
+torus
+150 55 30 10 15
+pop
+
+display
+save
+donut.png
